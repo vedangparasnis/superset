@@ -19,7 +19,8 @@ import json
 import os
 import subprocess
 import sys
-
+from sys import exit
+from io import StringIO
 from setuptools import find_packages, setup
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
